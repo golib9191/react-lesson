@@ -1,9 +1,9 @@
-import Salom from "./components/Salomlash.jsx";
+import ProductInfo from "./components/ProductInfo.jsx";
 
 export const App = () => {
     return (
         <div>
-            <Salom/>
+            <ProductInfo/>
         </div>
     )
 }

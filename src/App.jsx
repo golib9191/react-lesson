@@ -1,9 +1,9 @@
-import JSXRules from "./components/JSXRules.jsx";
+import Salom from "./components/Salomlash.jsx";
 
 export const App = () => {
     return (
         <div>
-            <JSXRules/>
+            <Salom/>
         </div>
     )
 }

@@ -1,9 +1,9 @@
-import Oilam from "./components/UserList.jsx";
+import ProductList from "./components/ProductList.jsx";
 
 export const App = () => {
     return (
         <div>
-            <Oilam/>
+            <ProductList/>
         </div>
     )
 }

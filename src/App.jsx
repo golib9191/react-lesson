@@ -1,10 +1,11 @@
-import Person from "./components/Person.jsx";
 
+const ValidToshbaqa = () =><h1>Toshbaqa uchmaydi</h1>
+const InValidToshbaqa = () =><h1>Sal pastlab uchadi</h1>
+
+const Password = ({isValid}) => isValid ? <ValidToshbaqa /> : <InValidToshbaqa />
 
 export const App = () => {
     return (
-        <div>
-            <Person name="G'olib" age={33} hobbie={"PUBG"} family={"Oilali 2 ta farzandli"} />
-        </div>
+        <Password isValid={false}/>
     )
 }

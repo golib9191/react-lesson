@@ -1,10 +1,10 @@
-import Greeting from "./components/Greeting.jsx";
-
+import "./index.css"
+import { AiFillAlipayCircle } from "react-icons/ai";
 export const App = () => {
     return (
-        <div>
-            <Greeting kunVaqti={"ertalab"}/>
-        </div>
+        <section>
+            <AiFillAlipayCircle size="xl" />
+        </section>
     )
 }
 

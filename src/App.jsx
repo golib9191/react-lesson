@@ -1,7 +1,10 @@
-import UserStatus from "./components/UserStatus.jsx";
+import Greeting from "./components/Greeting.jsx";
 
 export const App = () => {
     return (
-        <UserStatus loggedIn={true} isAdmin={true}/>
+        <div>
+            <Greeting kunVaqti={"ertalab"}/>
+        </div>
     )
 }
+

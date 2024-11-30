@@ -1,7 +1,7 @@
-import Weather from "./components/Weather.jsx";
+import UserStatus from "./components/UserStatus.jsx";
 
 export const App = () => {
     return (
-        <Weather/>
+        <UserStatus loggedIn={true} isAdmin={true}/>
     )
 }
